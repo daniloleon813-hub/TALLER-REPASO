@@ -1,0 +1,14 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        double precio;
+
+        Console.Write("Ingrese el precio: ");
+        precio = Convert.ToDouble(Console.ReadLine());
+
+        Console.WriteLine("Precio final: $" + precio);
+    }
+}
