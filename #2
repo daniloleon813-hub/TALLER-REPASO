@@ -1,0 +1,12 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        int numero = 100;
+        double resultado = numero;
+
+        Console.WriteLine("Valor convertido: " + resultado);
+    }
+}
