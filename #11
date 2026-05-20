@@ -1,0 +1,16 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        double valor, iva;
+
+        Console.Write("Ingrese valor del producto: ");
+        valor = Convert.ToDouble(Console.ReadLine());
+
+        iva = valor * 0.19;
+
+        Console.WriteLine("IVA: " + iva);
+    }
+}
