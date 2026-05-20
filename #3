@@ -1,0 +1,16 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        double multa;
+
+        Console.Write("Ingrese el valor decimal: ");
+        multa = Convert.ToDouble(Console.ReadLine());
+
+        int entero = (int)multa;
+
+        Console.WriteLine("Parte entera: " + entero);
+    }
+}
